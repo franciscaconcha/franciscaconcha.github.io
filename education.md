@@ -1,6 +1,5 @@
-
 ---
-layout: page
+layout: default
 title: Education
-permalink: education.html
+permalink: education
 ---

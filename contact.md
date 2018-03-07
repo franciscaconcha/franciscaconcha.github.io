@@ -1,7 +1,6 @@
-
 ---
-layout: page
+layout: default
 title: Contact
-permalink: contact.html
+permalink: contact
 ---
 

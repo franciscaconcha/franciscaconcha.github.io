@@ -1,6 +1,5 @@
-
 ---
-layout: page
+layout: default
 title: Outreach
-permalink: outreach.html
+permalink: outreach
 ---
