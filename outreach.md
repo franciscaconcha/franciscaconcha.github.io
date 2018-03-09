@@ -4,9 +4,9 @@ title: Outreach
 permalink: outreach
 ---
 
-#Outreach & writing
+# Outreach & writing
 
-##Primer Fotón
+## Primer Fotón
 Since June 2015 I run a blog in Spanish called Primer Fotón, which in English means First Photon. I cover the subjects of astronomy and computer science and it is aimed to the general public, focusing on simple explanations of phenomena and scientific developments. Primer Fotón is part of Red Latinoamericana de Cultura Científica, Latinamerican Network of Scientific Culture, a plataform for latin american bloggers working on science outreach. Since October 2016 I am also part of the directory of the Network.
 I have also been developing a Primer Fotón podcast, where I comment some of my articles in different episodes.
 
