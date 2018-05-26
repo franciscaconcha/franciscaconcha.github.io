@@ -13,7 +13,7 @@ I have also been developing a <a href="http://us.ivoox.com/es/podcast-podcast-pr
 <br>
 
 ## Astronomy on Tap Leiden
-A few months after starting my PhD in Leiden I became part of the group organizing <a href="http://astronomyontap.org" target="_blank">Astronomy on Tap</a> events in our town. Astronomy on Tap is an outeach initiative started in New York in 2013 that brings professional scientists to local bars to share their knowledge with the public. Together with an amazing group of people, we bring <a href="http://astronomyontap.nl" target="_blank">Astronomy on Tap Leiden</a> the last Monday of every month to Grand Café de Burcht in the city center.
+A few months after starting my PhD in Leiden I became part of the group organizing <a href="http://astronomyontap.org" target="_blank">Astronomy on Tap</a> events in our town. Astronomy on Tap is an ourteach initiative started in New York in 2013 that brings professional scientists to local bars to share their knowledge with the public. Together with an amazing group of people, we bring <a href="http://astronomyontap.nl" target="_blank">Astronomy on Tap Leiden</a> the last Monday of every month to Grand Café de Burcht in the city center.
 <br>
 <br>
 
