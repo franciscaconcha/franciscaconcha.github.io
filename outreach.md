@@ -5,7 +5,7 @@ permalink: outreach
 ---
 
 # Outreach & writing
-
+  
 ## Primer Fotón
 Since June 2015 I run a blog in Spanish called <a href="http://primerfoton.cl" target="_blank">Primer Fotón</a>, which in English means First Photon. I cover the subjects of astronomy and computer science and it is aimed to the general public, focusing on simple explanations of phenomena and scientific developments. Primer Fotón is part of <a href="http://redlcc.org" target="_blank">Red Latinoamericana de Cultura Científica</a>, Latinamerican Network of Scientific Culture, a plataform for latin american bloggers working on science outreach. Since October 2016 I am also part of the directory of the Network.
 I have also been developing a <a href="http://us.ivoox.com/es/podcast-podcast-primer-foton_sq_f1255983_1.html" target="_blank">Primer Fotón podcast</a>, where I comment different astronomical news.
@@ -18,7 +18,7 @@ A few months after starting my PhD in Leiden I became part of the group organizi
 <br>
 
 ## Observatorio Astronómico Andino
-From September 2012 to August 2016 I was an astronomer at <a href="http://oaa.cl" target="_blank">Observatorio Astronómico Andino</a>, a beautiful touristic astronomical observatory close to Santiago de Chile. There I had the chance to give astronomy talks to all kinds of people, ranging from middle school kids to Chile's current president, Michelle Bachelet. The tour consisted in an introductory talk about astronomical objects, looking at the sky with naked eye and learning to recognize constellations and other properties such as the color of the stars, and then observations with binoculars and telescopes up to 14" in size. We also performed demonstrations of astrophotography, and you can see some of my (very amateur) images <a href="https://www.flickr.com/photos/astrofran/sets/72157651298918207/" target="_blank">here</a>. Working at the OAA was a very important step in realizing how amazing it is to share astronomy with the public.
+From September 2012 to August 2016 I was an astronomer at <a href="http://oaa.cl" target="_blank">Observatorio Astronómico Andino</a>, a beautiful touristic astronomical observatory close to Santiago de Chile. There I had the chance to give astronomy talks to all kinds of people, ranging from middle school kids to Chile's former president, Michelle Bachelet. The tour consisted in an introductory talk about astronomical objects, looking at the sky with naked eye and learning to recognize constellations and other properties such as the color of the stars, and then observations with binoculars and telescopes up to 14" in size. We also performed demonstrations of astrophotography, and you can see some of my (very amateur) images <a href="https://www.flickr.com/photos/astrofran/sets/72157651298918207/" target="_blank">here</a>. Working at the OAA was a very important step in realizing how amazing it is to share astronomy with the public.
 <br>
 <br>
 
