@@ -7,7 +7,7 @@ permalink: talks
 # Talks & poster presentations
 (Last updated: June 2018)
 - **AMUSE mini-workshop**.  
-<span style="color:#757575">RIKEN Center for Computational Science, Kobe, Japan. 21--22 June 2018.</span>  
+<span style="color:#455A64">RIKEN Center for Computational Science, Kobe, Japan. 21--22 June 2018.</span>  
 Invited lecture: *Multi-scale simulations with AMUSE*
 
 - **3rd Dutch Star Cluster Meeting** (SOC).  
