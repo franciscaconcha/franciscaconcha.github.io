@@ -7,11 +7,11 @@ permalink: talks
 # Talks & poster presentations
 (Last updated: June 2018)
 - **AMUSE mini-workshop**.  
-RIKEN-CCS, Kobe, Japan, 21--22 June 2018.
+RIKEN Center for Computational Science, Kobe, Japan, 21--22 June 2018.  
 Invited lecture: *Multi-scale simulations with AMUSE*
 
 - **3rd Dutch Star Cluster Meeting** (SOC).  
-Leiden Observatory, Leiden, The Netherlands, 6 October 2017.
+Leiden Observatory, Leiden, The Netherlands, 6 October 2017.  
 Presentation: *The viscous evolution of protoplanetary disks inside young star clusters*
 
 - **MODEST17: Modelling and observing dense stellar systems**.  
