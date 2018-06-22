@@ -11,25 +11,25 @@ permalink: talks
 Invited lecture: *Multi-scale simulations with AMUSE*
 
 - **3rd Dutch Star Cluster Meeting** (SOC).  
-Leiden Observatory, Leiden, The Netherlands. 6 October 2017.  
+<span style="color:#9E9E9E">Leiden Observatory, Leiden, The Netherlands. 6 October 2017.</span>  
 Presentation: *The viscous evolution of protoplanetary disks inside young star clusters*
 
 - **MODEST17: Modelling and observing dense stellar systems**.  
-Charles University, Prague, Czech Republic. 18--22 September 2017.  
-<a href="images/Poster2017_02.png" target="_blank">Poster</a>.
+<span style="color:#9E9E9E">Charles University, Prague, Czech Republic. 18--22 September 2017.</span>  
+Poster: <a href="images/Poster2017_02.png" target="_blank">The viscous evolution of circumstellar disks (v2)</a>.
 
 - **MPIAA topical workshop: The formation and evolution of planets and their disks**.  
-MPA, Garching, Germany. 19--21 June 2017.  
-<a href="images/Poster2017_01.png" target="_blank">Poster</a>.
+<span style="color:#9E9E9E">MPA, Garching, Germany. 19--21 June 2017.</span>  
+Poster: <a href="images/Poster2017_01.png" target="_blank">The viscous evolution of circumstellar disks (v1)</a>.
 
 - **72nd Netherlands Astronomers Conference**.  
-Radboud University, Nijmegen, The Netherlands. 22--24 May 2017.  
-<a href="images/Poster2017_01.png" target="_blank">Poster</a>; 1st prize in poster competition.
+<span style="color:#9E9E9E">Radboud University, Nijmegen, The Netherlands. 22--24 May 2017.</span>  
+Poster: <a href="images/Poster2017_01.png" target="_blank">The viscous evolution of circumstellar disks (v1)</a>; 1st prize in poster competition.
 
 - **NOVA Network 2 Meeting**.  
-UvA API, Amsterdam, The Netherlands. 14 February 2017.  
+<span style="color:#9E9E9E">UvA API, Amsterdam, The Netherlands. 14 February 2017.</span>  
 Presentation: *The viscous evolution of protoplanetary disks inside young star clusters*
 
 - **2nd Dutch Star Cluster Meeting**.  
-UvA API, Amsterdam, The Netherlands. 3 February 2017.  
+<span style="color:#9E9E9E">UvA API, Amsterdam, The Netherlands. 3 February 2017.</span>  
 Presentation: *Evolution  of  circumstellar  disks  in  young  stellar clusters*
