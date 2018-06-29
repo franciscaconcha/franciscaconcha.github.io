@@ -6,6 +6,11 @@ permalink: talks
 
 # Talks & poster presentations
 (Last updated: June 2018)
+- **MODEST18: Dense stellar systems in the era of Gaia, LIGO, & LISA**.  
+<span style="color:#9E9E9E">
+Petros Nomikos Conference Centre, Firá, Santorini, Greece. 25--29 June 2018.</span>  
+Presentation: *The viscous evolution of circumstellar disks in young star clusters*
+
 - **AMUSE mini-workshop**.  
 <span style="color:#9E9E9E">RIKEN Center for Computational Science, Kobe, Japan. 21--22 June 2018.</span>  
 Invited lecture: *Multi-scale simulations with AMUSE*
