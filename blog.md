@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: blog
 title: caca
+permalink: blog
 ---
 
 bloggg
