@@ -1,11 +1,11 @@
 ---
-layout: default
-title: Blog
+layout: blog
+title: caaaa
 ---
 
 <div class="posts">
   {% for post in paginator.posts %}
-	{% if post.categories contains 'blog' %}
+	{% if post.categorie contains 'blog' %}
  	 <div class="post">
     	<h1 class="post-title">
       	<a href="{{ post.url }}">
