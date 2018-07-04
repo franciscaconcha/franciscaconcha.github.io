@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="3.6.2">Jekyll</generator>
 <link href="http://localhost:4444/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://localhost:4444/" rel="alternate" type="text/html" />
-<updated>2018-07-04T16:03:30+02:00</updated>
+<updated>2018-07-04T16:11:12+02:00</updated>
 <id>http://localhost:4444/</id>
 <subtitle>Personal site of Francisca Concha-Ramirez.</subtitle>
 <entry>
@@ -70,11 +70,11 @@ print_hi(‘Tom’)
 </entry>
 <entry>
 <title>Introducing Hyde</title>
-<link href="http://localhost:4444/hyde-master/2013/12/28/introducing-hyde.html" rel="alternate" type="text/html" title="Introducing Hyde" />
+<link href="http://localhost:4444/blog/2013/12/28/introducing-hyde.html" rel="alternate" type="text/html" title="Introducing Hyde" />
 <published>2013-12-28T00:00:00+01:00</published>
 <updated>2013-12-28T00:00:00+01:00</updated>
-<id>http://localhost:4444/hyde-master/2013/12/28/introducing-hyde</id>
-<content type="html" xml:base="http://localhost:4444/hyde-master/2013/12/28/introducing-hyde.html">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+<id>http://localhost:4444/blog/2013/12/28/introducing-hyde</id>
+<content type="html" xml:base="http://localhost:4444/blog/2013/12/28/introducing-hyde.html">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
 
@@ -160,11 +160,11 @@ print_hi(‘Tom’)
 </entry>
 <entry>
 <title>Example content</title>
-<link href="http://localhost:4444/hyde-master/2012/02/07/example-content.html" rel="alternate" type="text/html" title="Example content" />
+<link href="http://localhost:4444/blog/2012/02/07/example-content.html" rel="alternate" type="text/html" title="Example content" />
 <published>2012-02-07T00:00:00+01:00</published>
 <updated>2012-02-07T00:00:00+01:00</updated>
-<id>http://localhost:4444/hyde-master/2012/02/07/example-content</id>
-<content type="html" xml:base="http://localhost:4444/hyde-master/2012/02/07/example-content.html">&lt;div class=&quot;message&quot;&gt;
+<id>http://localhost:4444/blog/2012/02/07/example-content</id>
+<content type="html" xml:base="http://localhost:4444/blog/2012/02/07/example-content.html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
 
@@ -458,11 +458,11 @@ adder(2, 6);
 </entry>
 <entry>
 <title>What’s Jekyll?</title>
-<link href="http://localhost:4444/hyde-master/2012/02/06/whats-jekyll.html" rel="alternate" type="text/html" title="What's Jekyll?" />
+<link href="http://localhost:4444/blog/2012/02/06/whats-jekyll.html" rel="alternate" type="text/html" title="What's Jekyll?" />
 <published>2012-02-06T00:00:00+01:00</published>
 <updated>2012-02-06T00:00:00+01:00</updated>
-<id>http://localhost:4444/hyde-master/2012/02/06/whats-jekyll</id>
-<content type="html" xml:base="http://localhost:4444/hyde-master/2012/02/06/whats-jekyll.html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+<id>http://localhost:4444/blog/2012/02/06/whats-jekyll</id>
+<content type="html" xml:base="http://localhost:4444/blog/2012/02/06/whats-jekyll.html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
