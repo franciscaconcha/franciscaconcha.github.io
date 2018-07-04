@@ -24,7 +24,7 @@ github_username:  franciscaconcha
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 #remote_theme: poole/hyde 
 plugins:
   - jekyll-feed
