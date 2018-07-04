@@ -25,12 +25,29 @@ blog_name: MY cool writing blog
 blog_description: "Getting my writing habit back"
 personal_site: http://francisca.cr
 
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
 #remote_theme: poole/hyde 
 plugins:
   - jekyll-feed
+
+gems:
+  - jekyll-font-awesome-sass
+
+font-awesome:
+  assets: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
