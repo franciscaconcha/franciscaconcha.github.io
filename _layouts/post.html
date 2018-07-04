@@ -1,14 +1,12 @@
 ---
-layout: default
 ---
-
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+<small>{{ page.date | date: "%Y %-d %B %Y" }}</small>
+<h1>{{ page.title }} AAA </h1>
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
 {{content}}
 
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}

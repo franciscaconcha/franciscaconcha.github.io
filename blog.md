@@ -5,7 +5,6 @@ permalink: blog
 ---
 
 {% for post in site.posts %}
-{% if post.categories contains 'blog' %}
 <div class="post">
 <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <p class="meta">Date: {{ post.date | date: ' %d %B, %Y' }}</p>
@@ -14,5 +13,4 @@ permalink: blog
 </div>
 </div>
 <br>
-{% endif %}
 {% endfor %}
