@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: the blog
+title: Word cluster
 permalink: blog
 ---
 
