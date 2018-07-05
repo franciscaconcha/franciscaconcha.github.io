@@ -1,13 +1,16 @@
 ---
 layout: blog
 ---
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
 
-<p class="view">by {{ page.author | default: site.author }}</p>
+<small><font color="#78909c">{{ page.date | date: "%-d %B %Y" }}</font></small>
+<h1>{{ page.title }}</h1>
+<span padding-top="-10px"><small><font color="#78909c">tags: [</font></small>
+{% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+<small><font color="#78909c">]</span></small>
+<p class="view">by {{ page.author | default: site.author }}</font></p>
 
 {{content}}
 
