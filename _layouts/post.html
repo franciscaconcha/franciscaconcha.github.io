@@ -4,7 +4,7 @@ layout: blog
 
 <small><font color="#78909c">{{ page.date | date: "%-d %B %Y" }}</font></small>
 <h1>{{ page.title }}</h1>
-<span padding-top="-10px"><small><font color="#78909c">tags: [</font></small>
+<span padding-top="-10px"><font color="#78909c"><i class="fas fa-phone"></i> [</font>
 {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
@@ -13,4 +13,6 @@ layout: blog
 <p class="view">by {{ page.author | default: site.author }}</font></p>
 
 {{content}}
+
+{% include share-bar.html %}
 
