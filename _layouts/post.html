@@ -2,6 +2,9 @@
 layout: blog
 ---
 
+<a href="#" onClick="history.go(-1)"><< back</a>
+<br>
+
 <small><font color="#78909c">{{ page.date | date: "%-d %B %Y" }}</font></small>
 <h1>{{ page.title }}</h1>
 <span padding-top="-10px"><font color="#78909c"><i class="fa fa-fw fa-tags"></i> [</font>
@@ -15,4 +18,5 @@ layout: blog
 {{content}}
 
 {% include share-bar.html %}
-
+<a href="#" onClick="history.go(-1)"><< back</a>
+<br>
