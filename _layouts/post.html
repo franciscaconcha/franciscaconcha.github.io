@@ -10,7 +10,7 @@ layout: blog
 <span padding-top="-10px"><font color="#78909c"><i class="fa fa-fw fa-tags"></i> [</font>
 {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    <a href="/tag/{{ tag_name }}"><small><nobr>{{ tag_name }}</nobr>&nbsp;</small></a>
   {% endfor %}
 <small><font color="#78909c">]</span></small>
 <p class="view">by {{ page.author | default: site.author }}</font></p>

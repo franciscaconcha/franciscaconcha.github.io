@@ -19,7 +19,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="/blog">{{ site.blog_name | default: site.github.repository_name }}</a></h1>
+        <h1><a href="/blog"><font color="#EAD2AC">{{ site.blog_name | default: site.github.repository_name }}</font></a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -31,9 +31,11 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}-->
 
-	<p class="view">My name is <b>Francisca Concha-Ramírez</b> and I am a PhD at Leiden Observatory. I do <b>computational astrophysics</b> and I also write a lot, but I want to write better.<br>This is my personal blog to document my writing up and downs. <b>For my work/CV website, <a href="{{ site.personal_site }}" target="_blank">click here</a>.</b></p>
+	<p class="view">My name is <b>Francisca Concha-Ramírez</b> and I am a PhD at Leiden Observatory. I do <b>computational astrophysics</b> and I also write a lot, but I want to write better.<br>This is my personal blog to document my writing up and downs. <b>For my work/CV website, <a href="{{ site.personal_site }}" target="_blank" class="header">click here</a>.</b></p>
 
-	<p class="view">To learn why I started this blog, and see my writing plan and rules, check out <a href="">this post</a>. 
+	<p class="view">To learn why I started this blog, and see my writing plan and rules, check out <a href="" class="header">this post</a>. 
+
+	{% include tagcloud.html %}
 
         <!--{% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
@@ -57,7 +59,7 @@
         <!--{% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}-->
-        <p><small>Hosted on GitHub Pages<br>Theme tweaked from <a href="https://github.com/orderedlist">orderedlist</a>'s minimal</small></p>
+        <p><small>Hosted on GitHub Pages<br>Theme tweaked from <a href="https://github.com/orderedlist" class="header">orderedlist</a>'s minimal</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

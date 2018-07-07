@@ -11,7 +11,7 @@ permalink: blog
 <span padding-top="-10px"><small><font color="#78909c"><i class="fa fa-fw fa-tags"></i> [</font></small>
 {% for tag in post.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}"><font color="#EAD2AC"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</font></a>
+    <a href="/tag/{{ tag_name }}"><small><nobr>{{ tag_name }}</nobr>&nbsp;</small></a>
   {% endfor %}
 <small><font color="#78909c">]</font></small></span>
 
