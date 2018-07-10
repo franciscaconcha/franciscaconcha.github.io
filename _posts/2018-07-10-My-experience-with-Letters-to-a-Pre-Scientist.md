@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My experience with 'Letters to a Pre-Scientist'"
-tags: habits writing writing-plan planning phd-life hobonichi-techo
+tags: letters-pre-scientist writing letters outreach kids
 author: Francisca Concha-Ramírez
 ---
 
@@ -14,15 +14,15 @@ From their own website:
 
 >At the core of our mission is a desire to see students of all races, ethnicities, and economic backgrounds succeed in their science education. For this reason, we focus on bringing our program to schools with a high proportion of students from low-income families. 
 
-I found out about the program while I was doing my Master's, and immediately loved the idea. In my opinion, it has the great advantange of not only bringing kids closer to science (and scientists), but it also paints scientists in a new light through kid's eyes. In my letters with my pen pal we did not talk only science, we also told each other about our families, friends, and hobbies. I think it really helps the kids see scientist as normal people, going beyond the "genious" stereotype that sometimes permeates media and culture. 
+I found out about the program while I was doing my Masters, and immediately loved the idea. In my opinion, it has the great advantange of not only bringing kids closer to science (and scientists), but it also paints scientists in a new light through kid's eyes. In my letters with my pen pal we did not talk only science, we also told each other about our families, friends, and hobbies. I think it really helps the kids see scientists as normal people, going beyond the "genious" stereotype that sometimes permeates media and culture. 
 
 Back when I learned about LPS I lived in Chile, but that was not an impediment for me to sign up. As they said in my welcome email, there are only two requirements: <b>write letters to your pen pal</b>, and <b>send them in time</b>. There have been some changes for the 2018-2019 period:
 
-* All scientist have to complete a 1-hour training video, which will <i>provide resources for writing age-appropriate letters, ideas for what to discuss with your pen pal, a guide to navigating potentially difficult situations, and more</i>. I believe this is a new addition to the program and this year will be the first time they do this.
+* All scientists have to complete a 1-hour training video, which will <i>provide resources for writing age-appropriate letters, ideas for what to discuss with your pen pal, a guide to navigating potentially difficult situations, and more</i>. I believe this is a new addition to the program and this year will be the first time they do this.
 
-* The form to sign up was much more complete this year than I remembered. The asked about my hobbies, and the languages I would feel comfortable communicating with my pen pal in. This seemed like a very nice addition.
+* The form to sign up was much more complete this year than I remembered. They asked about my hobbies, and the languages I would feel comfortable communicating with my pen pal in. This seemed like a very nice addition.
 
 On my first time I got matched with Miguel, a 5th grade boy who wanted to learn about space. My distance to the US made the mailing process a bit slow, but luckily LPS provided links to upload a copy of your letter, so your pen pal could get it at the same time that their classmates, even it the actual physical letter had not arrived yet. And yes: <b>every kid</b> in the participating classes gets a pen pal!
 
-Something that worried me was that the organizers asked the scientist to attach stamps and envelopes to their letters, if possible, to make it easier for the kids to reply. Sadly, being in Chile it was not possible for me to send US stamps. Now that I live in Europe I will have the same problem. However, this time I found out that [you can donate/sponsor the program to support a pre-scientist's materials!](https://prescientist.wedid.it/campaigns/4925) This makes me very happy and if you enjoy the initiative I would recommend considering a donation.
+Something that worried me was that the organizers asked scientists to attach stamps and envelopes to their letters, if possible, to make it easier for the kids to reply. Sadly, being in Chile it was not possible for me to send US stamps. Now that I live in Europe I will have the same problem. However, this time I found out that [you can donate/sponsor the program to support a pre-scientist's materials!](https://prescientist.wedid.it/campaigns/4925) This makes me very happy and if you enjoy the initiative I would recommend considering a donation.
 
