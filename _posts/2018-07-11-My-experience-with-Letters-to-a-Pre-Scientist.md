@@ -5,7 +5,7 @@ tags: letters-pre-scientist writing letters outreach kids
 author: Francisca Concha-Ramírez
 ---
 
-I was browsing <a href="http://twitter.com/franconchar" target="_blank">twitter</a> yesterday and noticed that 'Letters to a Pre-Scientist' has started to recruit scientist pen pals for the 2018-2019 school year. Having participed before and loved it, I decided to write a little bit about my experience. Looking through my emails to see when I had participed, I realized it was for the 2015-2016 school year! A long time ago, but hopefully the spirit and experience has not changed much.
+I was browsing <a href="http://twitter.com/franconchar" target="_blank">twitter</a> yesterday and noticed that <a href="http://www.prescientist.org/" target="_blank">Letters to a Pre-Scientist</a> has started to recruit scientist pen pals for the 2018-2019 school year. Having participed before and loved it, I decided to write a little bit about my experience. Looking through my emails to see when I had participed, I realized it was for the 2015-2016 school year! A long time ago, but hopefully the spirit and experience has not changed much.
 
 Letters to a Pre-Scientist (LPS) is a program that connects scientists from all over the world with middle-school students in the United States (I wonder if there is a similar initiative in other parts of the world, for now I haven't been able to find any). It was founded in 2010 by Macon Lowman and Anna Goldstein, after the former became a 6th grade teacher in an under-resourced county. Goldstein helped her set up a network of scientists to be pen pals with their students, and the program was born (you can read more details about their history <a href="http://www.prescientist.org/about-us/history/" target="_blank">here</a>).
 
@@ -14,7 +14,7 @@ From their own website:
 
 >At the core of our mission is a desire to see students of all races, ethnicities, and economic backgrounds succeed in their science education. For this reason, we focus on bringing our program to schools with a high proportion of students from low-income families. 
 
-I found out about the program while I was doing my Masters, and immediately loved the idea. In my opinion, it has the great advantange of not only bringing kids closer to science (and scientists), but it also paints scientists in a new light through kid's eyes. In my letters with my pen pal we did not talk only science, we also told each other about our families, friends, and hobbies. I think it really helps the kids see scientists as normal people, going beyond the "genius" stereotype that sometimes permeates media and culture. 
+I found out about the program while I was doing my Masters, and immediately loved the idea. In my opinion, it has the great advantange of not only bringing kids closer to science (and scientists), but it also paints scientists in a new light through kid's eyes. In my letters with my pen pal we did not talk only science, we also told each other about our families, friends, and hobbies. I think it really helps the kids see scientists as normal people, going beyond the "genius" stereotype that sometimes permeates media and culture. I also love how they refer to the kids as 'pre-scientists', supporting the idea than anybody can become a scientist.
 
 Back when I learned about LPS I lived in Chile, but that was not an impediment for me to sign up. As they said in my welcome email, there are only two requirements: <b>write letters to your pen pal</b>, and <b>send them in time</b>. There have been some changes for the 2018-2019 period:
 
