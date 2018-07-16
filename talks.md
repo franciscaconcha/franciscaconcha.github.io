@@ -8,7 +8,7 @@ permalink: talks
 (Last updated: July 2018)
 
 - **Leiden -- Beijing Normal University Summer School on Computational Astrophysics**.
-<span style="color:#9E9E9E">Leiden Observatory, Leiden, The Netherlands. 9--20 July 2018.</span>
+<span style="color:#9E9E9E">Leiden Observatory, Leiden, The Netherlands. 9--20 July 2018.</span>  
 Lecture: *Introduction to AMUSE*
 
 - **MODEST18: Dense stellar systems in the era of Gaia, LIGO, & LISA**.  
