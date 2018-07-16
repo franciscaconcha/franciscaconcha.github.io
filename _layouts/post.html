@@ -19,17 +19,7 @@ layout: blog
 
 {% include share-bar.html %}
 
-<h3>Comments</h3>
-<form method="POST" action="https://api.staticman.net/v2/entry/eduardoboucas/staticman/gh-pages/comments">
-  <input name="options[redirect]" type="hidden" value="{{ page.url }}">
-  <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label><br>
-  <label><input name="fields[url]" type="url">Website</label><br>
-  <label><textarea name="fields[message]"></textarea>Comment</label>
-<br>  
-  <button type="submit">Submit</button>
-</form>
+
 <br>
 <a href="#" onClick="history.go(-1)"><< back</a>
 <br>
