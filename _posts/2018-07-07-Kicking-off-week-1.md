@@ -2,6 +2,7 @@
 layout: post
 title:  "Kicking off week 1"
 tags: habits writing writing-plan planning phd-life hobonichi-techo
+categories: blog
 author: Francisca Concha-Ramírez
 ---
 

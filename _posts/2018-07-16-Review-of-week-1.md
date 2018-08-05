@@ -2,6 +2,7 @@
 layout: post
 title:  "Review of week 1 and kicking off week 2"
 tags: writing habits planning phd-life
+categories: blog
 author: Francisca Concha-Ramírez
 ---
 

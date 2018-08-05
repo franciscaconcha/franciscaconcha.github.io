@@ -2,6 +2,7 @@
 layout: post
 title:  "My experience with 'Letters to a Pre-Scientist'"
 tags: letters-pre-scientist writing letters outreach kids
+categories: blog
 author: Francisca Concha-Ramírez
 ---
 

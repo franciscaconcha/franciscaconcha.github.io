@@ -3,6 +3,7 @@ layout: post
 title:  "Getting my writing habit back"
 date:   2018-06-27 20:25:48 +0200
 tags: habits writing writing-plan
+categories: blog
 author: Francisca Concha-Ramírez
 ---
 
