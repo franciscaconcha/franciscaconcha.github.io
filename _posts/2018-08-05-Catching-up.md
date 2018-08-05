@@ -3,6 +3,7 @@ layout: post
 title:  "Catching up on past weeks, starting week 5"
 tags: writing habits planning phd-life holidays work-life-balance outreach hobonichi-techo
 categories: blog
+image: https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-08-05 12.00.51.jpg?raw=true
 author: Francisca Concha-Ramírez
 ---
 
