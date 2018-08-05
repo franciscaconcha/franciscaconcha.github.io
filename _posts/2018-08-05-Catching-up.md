@@ -26,7 +26,7 @@ So, I have made a few decisions regarding the work for my science outreach websi
 
 So, considering this and the rules I set up on my <a href="http://francisca.cr/2018/06/27/Getting-my-writing-habit-back.html">first post</a>, my plan for the coming week is:
 
-**Week 5 (6-10 August)**: four 2-hour <font color="#ff6600">work</font> blocks. One two-hour <font color="#00aaff">outreach</a>block.
+**Week 5 (6-10 August)**: four 2-hour <font color="#ff6600">work</font> blocks. One two-hour <font color="#00aaff">outreach</font> block.
 
 Yes, I'm also moving from scheduling 4 weekly blocks, to 5. I think it's going well enough to do so. 
 
