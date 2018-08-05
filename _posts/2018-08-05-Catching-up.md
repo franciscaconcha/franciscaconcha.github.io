@@ -8,7 +8,7 @@ author: Francisca Concha-Ramírez
 
 Ironically, I'm very behind on updating this blog, but I'm not behind on the rest of my writing!
 
-On my <a href="http://francisca.cr/2018/07/16/Review-of-week-1.html">previous post</a>, which reviewed my goals for weeks 2 (July 16-22) and 3 (July 23-29) of my personal writing challenge, I had set up a goal of four writing blocks each week. Week 2 was a work week so all of my writing would be for work; week 3 was holidays so I assigned three blocks for my <a href="http://primerfoton.cl" target="blank">science website<i class="fa fa-fw fa-external-link"></i></a> and one "free" block which could be a personal thing or outreach. 
+On my <a href="http://francisca.cr/blog/2018/07/16/Review-of-week-1.html">previous post</a>, which reviewed my goals for weeks 2 (July 16-22) and 3 (July 23-29) of my personal writing challenge, I had set up a goal of four writing blocks each week. Week 2 was a work week so all of my writing would be for work; week 3 was holidays so I assigned three blocks for my <a href="http://primerfoton.cl" target="blank">science website<i class="fa fa-fw fa-external-link"></i></a> and one "free" block which could be a personal thing or outreach. 
 
 The four work writing blocks of week 2 were easily accomplished, since I have been traveling a lot lately and had many work stuff to catch up with. However, my proudest moment so far is the fact that **I did not write a single word during my holiday week!** Not. One. Word. Not even opened my laptop!
 
@@ -25,7 +25,7 @@ So, I have made a few decisions regarding the work for my science outreach websi
 * Originally I said I would not schedule writing blocks on weekends. I want to stick to this; however, on the last weekend of every month I am allowed **at most 2** blocks for my science website. I am already doing this: before a new month starts I go through astronomical events, set up social media posts and newsletter emails for the month, and so on. This has helped me a lot to stay on track with my website, so I'll implement it as a new rule.
 * FREE TIME IS FREE TIME. This means that I DO NOT work on my science website during my free time. Nothing wrong is going to happen if I don't keep up with my posting schedule. It can wait another couple of days, until the next assigned block, to be finished. **I need to separate my outreach work time from my actual, free for real free time**.
 
-So, considering this and the rules I set up on my <a href="http://francisca.cr/2018/06/27/Getting-my-writing-habit-back.html">first post</a>, my plan for the coming week is:
+So, considering this and the rules I set up on my <a href="http://francisca.cr/blog/2018/06/27/Getting-my-writing-habit-back.html">first post</a>, my plan for the coming week is:
 
 **Week 5 (6-10 August)**: four 2-hour <font color="#ff6600">work</font> blocks. One two-hour <font color="#00aaff">outreach</font> block.
 
