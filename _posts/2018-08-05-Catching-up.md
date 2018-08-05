@@ -34,7 +34,7 @@ Something for me to keep in mind is that I'm also starting an intensive Dutch co
 
 One other thing that's bugging me a little bit is how to keep track of my writing blocks every day. I am currently using the vertical monthly pages of my Hobonichi planner to do so, but lately I've also been using those pages as an "index" when I take notes:
 
-![Week4](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-08-05 12.00.51.jpg?raw=true "Week 1")
+![Week4](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-08-05 12.00.51.jpg?raw=true "Week 4")
 
 My planner has daily pages, which I sometimes don't fill up during one day and then use them for note taking. I keep an index of said notes on the monthly pages for quick reference, but now it seems to be interfering with my writing tracking. I also used these pages to track my period, but now I got rid of that or I would have even less space to write the index. Still trying to figure out what to do about my tracking system.
 
