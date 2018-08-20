@@ -27,4 +27,4 @@ I got inspired by some posts on Hobonichi Facebook groups, and I noticed that ea
 
 I am really liking the combination of these tracking systems. They also allow me to take notes next to each planned squared, so I can know if I need to write about anything specific. 
 
-I planned some writing blocks for this week and a couple for the next (since I need to publish a <a href="http://podcast.primerfoton.cl" target="blank">podcast episode<i class="fa fa-fw fa-external-link"></i></a> on the 31st), but I am mostly going to wing it and see what I feel like. This is probably the opposite of working towards building an habit, but my mental health is the priority right now.
+I planned some writing blocks for this week and one for the next (since I need to publish a <a href="http://podcast.primerfoton.cl" target="blank">podcast episode<i class="fa fa-fw fa-external-link"></i></a> on the 31st), but I am mostly going to wing it and see what I feel like. This is probably the opposite of working towards building an habit, but my mental health is the priority right now.
