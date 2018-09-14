@@ -4,6 +4,7 @@ title:  "Kicking off week 1"
 tags: habits writing writing-plan planning phd-life hobonichi-techo
 categories: blog
 author: Francisca Concha-Ramírez
+comments: true
 ---
 
 The coming week will be the first one of my writing plan, and I'm excited to start! The next two weeks are going to be a bit different from my usual schedule, since I will be Teaching Assistant at the Computational Astrophysics Summer School for undergrad students from Beijing Normal University. I will have to be with the group all through the day from 9h30 to 17h, so my timing will be less flexible than usual. Even so, I managed to make a plan that seems achievable, with four writing blocks for the week (two work ones and two for my science blog).
