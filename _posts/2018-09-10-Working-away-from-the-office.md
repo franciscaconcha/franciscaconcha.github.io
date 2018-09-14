@@ -5,6 +5,7 @@ tags: working life habits planning phd-life travel
 categories: blog
 image: https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-09-10%2014.43.23.jpg?raw=true
 author: Francisca Concha-Ramírez
+comments: true
 ---
 
 Whew! What a few crazy weeks these have been. In less than two weeks I aced my Dutch 2 test (9/10! :D), traveled to Belgium for a wedding, then flew to the US with my boyfriend, who's now moved to Princeton. Our studio right now consists only of a inflatable bed, a few boxes, and suitcases laying around, but even so we're making it feel like home (furniture will hopefully arrive by the end of September). More importantly, after the craziness of the pre- and post- trip couple of days, we're setting our new routines, which means: I'm back to work!
