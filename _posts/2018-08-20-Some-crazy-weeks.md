@@ -5,6 +5,7 @@ tags: writing habits planning phd-life anxiety mental-health work-life-balance h
 categories: blog
 image: https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-08-19 19.58.39.jpg?raw=true
 author: Francisca Concha-Ramírez
+comments: true
 ---
 
 The last weeks have been a little crazy, and it will keep being like that for at least a couple more. So I'm going easy on myself, trying not to force myself to do too many things that are not really necessary.
