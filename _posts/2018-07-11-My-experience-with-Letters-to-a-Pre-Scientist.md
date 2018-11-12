@@ -3,6 +3,7 @@ layout: post
 title:  "My experience with 'Letters to a Pre-Scientist'"
 tags: letters-pre-scientist writing letters outreach kids
 author: Francisca Concha-Ramírez
+comments: true
 ---
 
 I was browsing <a href="http://twitter.com/franconchar" target="_blank">twitter<i class="fa fa-fw fa-external-link"></i></a> yesterday and noticed that <a href="http://www.prescientist.org/" target="_blank">Letters to a Pre-Scientist<i class="fa fa-fw fa-external-link"></i></a> has started to recruit scientist pen pals for the 2018-2019 school year. Having participed before and loved it, I decided to write a little bit about my experience. Looking through my emails to see when I had participed, I realized it was for the 2015-2016 school year! A long time ago, but hopefully the spirit and experience has not changed much.

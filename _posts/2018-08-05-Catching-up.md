@@ -5,6 +5,7 @@ tags: writing habits planning phd-life holidays work-life-balance outreach hobon
 categories: blog
 image: https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-08-05 12.00.51.jpg?raw=true
 author: Francisca Concha-Ramírez
+comments: true
 ---
 
 Ironically, I'm very behind on updating this blog, but I'm not behind on the rest of my writing!

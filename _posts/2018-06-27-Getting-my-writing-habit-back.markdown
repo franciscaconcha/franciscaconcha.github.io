@@ -5,6 +5,7 @@ date:   2018-06-27 20:25:48 +0200
 tags: habits writing writing-plan
 categories: blog
 author: Francisca Concha-Ramírez
+comments: true
 ---
 
 I write a lot. As a 2nd year PhD student, I am dealing with writing my first papers and conference presentations (yes, I count them as writing). I also have a science blog for the general public: I write blog posts, social media posts, and podcast outlines. As part of Astronomy on Tap Leiden I write newsletters, event descriptions, and more social media posts. On top of it, I also keep a personal journal and write occasional letters to friends.
