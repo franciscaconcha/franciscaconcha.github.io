@@ -2615,6 +2615,7 @@ input, select, textarea {
 			color: #BDBDBD;
                         font-family: "Lucida Console", monospace;
                         font-size: 1em;
+                        margin-bottom: 10%; 
 		}
 
 		#header h1 {
