@@ -2604,7 +2604,7 @@ input, select, textarea {
 			-webkit-flex-grow: 0;
 			-ms-flex-grow: 0;
 			flex-grow: 0;
-			margin: 0 0 10% 0;
+			margin: 0 0 0 0;
 		}
 
 		#header strong, #header b {
@@ -2615,7 +2615,7 @@ input, select, textarea {
 			color: #BDBDBD;
                         font-family: "Lucida Console", monospace;
                         font-size: 1em;
-                        margin-bottom: 10%; 
+                        margin-bottom: 10%;
 		}
 
 		#header h1 {
@@ -2648,7 +2648,7 @@ input, select, textarea {
 		}
 
 	#header .icons {
-		margin: -10% 0 0 0;
+		margin: -10% 0 10% 0;
 	}
 
 		#header .icons a {
