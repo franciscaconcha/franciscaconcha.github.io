@@ -47,7 +47,7 @@
 
 .header p{
 		color: #b3b3b3;
-		font-family: FontAwesome;
+		font-family:"Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.0em;
@@ -155,7 +155,7 @@ color: #b2b2b2;
   font-family: "Lucida Console", monospace;
   font-size: 30px;
   font-weight: normal;
-  color: #FF4081;
+  color: #ff85a2; /* #FF4081;*/
   margin: 0px;
 }
 
