@@ -1,0 +1,193 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+
+.header {
+  overflow: hidden;
+  background-color: #455A64;
+  padding: 20px 10px;
+  margin: 0px 0px 0px 0px;
+  position: sticky;
+  top: 0;
+}
+
+
+.header h1 {
+  font-family: "Lucida Console", monospace;
+  font-size: 40px;
+  font-weight: normal;
+  color: #ff85a2;
+  margin: 0px;
+}
+
+.header h2 {
+  font-family: "Lucida Console", monospace;
+  font-size: 20px;
+  font-weight: normal;
+  color: #bdbdbd;
+  margin: 0px;
+  /*line-height: 5px;*/
+}
+
+.header avatar {
+  margin: 0 3em 3em 0;
+  width: 120px;
+  height: 120px;
+  max-height: 120px;
+  max-width: 120px;
+  float: left;
+}
+
+.header contact{
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: light;
+  color: #b3b3b3;
+
+}
+
+.header p{
+		color: #b3b3b3;
+		font-family:"Source Sans Pro", Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 400;
+		line-height: 1.0em;
+}
+
+
+/* Style the header links */
+.header a {
+  float: left;
+  text-align: center;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 25px;
+  border-radius: 4px;
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		color: #78909c;
+		text-decoration: none;
+	}
+
+		a:hover {
+			border-bottom-color: transparent;
+			color: #F8BBD0 !important;
+			text-decoration: none;
+}
+
+
+.header	ul.icons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+               font-family: FontAwesome;
+  font-size: 10px;
+color: #b2b2b2;
+            
+	}
+
+		ul.icons li {
+			display: inline-block;
+			padding: 0 0 0 0;
+		}
+
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.body {
+  overflow: hidden;
+  background: #FEF5E7 ;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-top: 100px;
+}
+
+.body section{
+		color: #787878;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 16pt;
+		font-weight: 400;
+		line-height: 1.75em;
+		border-bottom: 1px solid #ccc;
+                padding-bottom: 100px;
+}
+
+.body p{
+		color: #787878;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 16pt;
+		font-weight: 400;
+		line-height: 1.75em;
+}
+
+
+.body a {
+  border-bottom: dotted 1px;
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		color: #78909c;
+		text-decoration: none;
+	}
+
+		a:hover {
+			border-bottom-color: transparent;
+			color: #D35400 !important;
+			text-decoration: none;
+
+}
+
+.anchor { padding-top: 250px; 
+}
+
+.body h1 {
+  font-family: "Lucida Console", monospace;
+  font-size: 30px;
+  font-weight: normal;
+  color: #F39C12; /* #FF4081;*/
+  margin: 0px;
+}
+
+.body h2 {
+  font-family: "Lucida Console", monospace;
+  font-size: 20px;
+  font-weight: normal;
+  color: #bdbdbd;
+  margin: 0px;
+  /*line-height: 5px;*/
+}
+
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+.header {
+  overflow: hidden;
+  background-color: #455A64;
+padding: 4.5em 1.5em;
+  margin: 0px 0px 0px 0px;
+   width: 100%;
+   height: auto;
+}
+
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
