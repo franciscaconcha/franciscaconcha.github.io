@@ -20,11 +20,11 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #fdf8e1;
+    --bg: #fefbec;
     --fg: #3f3f46;
     --strong: #18181b;
     --muted: #6b6b73;
-    --rule: #ece3c2;
+    --rule: #efe8cf;
     --accent: #c2185b;
     --accent-soft: rgba(194, 24, 91, 0.35);
 
