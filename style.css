@@ -48,7 +48,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--sans);
-  font-size: 1.0625rem;
+  font-size: 1rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -188,7 +188,7 @@ strong {
 }
 
 .lede {
-  font-size: 1.1875rem;
+  font-size: 1.125rem;
   line-height: 1.6;
   color: var(--strong);
 }
@@ -356,7 +356,7 @@ figcaption {
 
 @media (max-width: 600px) {
   body {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 
   .page {
@@ -378,7 +378,7 @@ figcaption {
   }
 
   .lede {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 
   .row,
@@ -399,5 +399,19 @@ figcaption {
   *::after {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+/* Long-form text (research page): justified, with hyphenation so lines stay evenly spaced */
+.prose p {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+/* Narrow columns get gappy when justified, so phones stay left-aligned */
+@media (max-width: 600px) {
+  .prose p {
+    text-align: left;
   }
 }
