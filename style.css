@@ -61,7 +61,7 @@ body {
 
 .page {
   max-width: var(--measure);
-  margin: 0 auto;
+  margin: 0 0 0 clamp(0rem, 8vw, 9rem);
   padding: 2.5rem 1.5rem 3rem;
 }
 
