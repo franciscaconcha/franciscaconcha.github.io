@@ -197,22 +197,13 @@ strong {
   color: var(--muted);
 }
 
-/* Homepage intro: text beside the avatar */
-.intro {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 2rem;
-  align-items: center;
-}
-
-.intro .lede {
-  margin-bottom: 0;
-}
-
-/* Illustrated avatar that swaps to a photo on hover/focus */
+/* Small illustrated avatar above the greeting; swaps to a photo on hover/focus */
 .avatar {
-  margin: 0;
-  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.9rem;
+  width: fit-content;
+  margin: 0 0 1.5rem;
 }
 
 .avatar:focus {
@@ -222,10 +213,12 @@ strong {
 .avatar-frame {
   position: relative;
   display: block;
-  width: 9.5rem;
-  height: 9.5rem;
+  flex: none;
+  width: 5.25rem;
+  height: 5.25rem;
   border-radius: 50%;
   overflow: hidden;
+  box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--accent);
   transition: transform 0.25s ease;
 }
 
@@ -244,7 +237,7 @@ strong {
 
 .avatar:hover .avatar-frame,
 .avatar:focus-visible .avatar-frame {
-  transform: rotate(-3deg) scale(1.03);
+  transform: rotate(-4deg) scale(1.04);
 }
 
 .avatar:hover .avatar-photo,
@@ -254,11 +247,11 @@ strong {
 
 .avatar:focus-visible .avatar-frame {
   outline: 2px solid var(--accent);
-  outline-offset: 3px;
+  outline-offset: 6px;
 }
 
 .avatar figcaption {
-  margin-top: 0.5rem;
+  padding-bottom: 0.2rem;
   font-family: var(--mono);
   font-size: 0.6875rem;
   color: var(--muted);
@@ -448,19 +441,9 @@ figcaption {
     font-size: 1rem;
   }
 
-  .intro {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
-
-  .avatar {
-    order: -1;
-    justify-self: start;
-  }
-
   .avatar-frame {
-    width: 7rem;
-    height: 7rem;
+    width: 4.5rem;
+    height: 4.5rem;
   }
 
   .row,
