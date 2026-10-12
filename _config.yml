@@ -14,16 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Francisca Concha-Ramírez
-email: fconcha@strw.leidenuniv.nl
+email: hello@francisca.cr
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site of Francisca Concha-Ramirez.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://francisca.cr" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://francisca.cr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: franconchar
 github_username:  franciscaconcha
 blog_name: Word cluster
 blog_description: "A blog about getting into a writing habit"
-personal_site: http://francisca.cr
+personal_site: https://francisca.cr
 
 
 # Pagination Settings
