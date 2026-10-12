@@ -48,7 +48,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--sans);
-  font-size: 1.0625rem;
+  font-size: 1rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -188,7 +188,7 @@ strong {
 }
 
 .lede {
-  font-size: 1.1875rem;
+  font-size: 1.125rem;
   line-height: 1.6;
   color: var(--strong);
 }
@@ -356,7 +356,7 @@ figcaption {
 
 @media (max-width: 600px) {
   body {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 
   .page {
@@ -378,7 +378,7 @@ figcaption {
   }
 
   .lede {
-    font-size: 1.0625rem;
+    font-size: 1rem;
   }
 
   .row,
@@ -399,5 +399,43 @@ figcaption {
   *::after {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+/* Research page: degree label column with year and place underneath */
+.when-sub {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--muted);
+  opacity: 0.85;
+}
+
+.research .row {
+  padding: 2rem 0 1.5rem;
+}
+
+.research h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.research p {
+  margin-bottom: 1.25rem;
+}
+
+.research figure {
+  margin: 1.75rem 0;
+}
+
+.more {
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+}
+
+@media (max-width: 600px) {
+  .research h3 {
+    margin-top: 0.75rem;
   }
 }
