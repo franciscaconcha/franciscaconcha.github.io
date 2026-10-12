@@ -402,40 +402,16 @@ figcaption {
   }
 }
 
-/* Research page: degree label column with year and place underneath */
-.when-sub {
-  display: block;
-  margin-top: 0.15rem;
-  font-size: 0.75rem;
-  line-height: 1.5;
-  color: var(--muted);
-  opacity: 0.85;
+/* Long-form text (research page): justified, with hyphenation so lines stay evenly spaced */
+.prose p {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
-.research .row {
-  padding: 2rem 0 1.5rem;
-}
-
-.research h3 {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.research p {
-  margin-bottom: 1.25rem;
-}
-
-.research figure {
-  margin: 1.75rem 0;
-}
-
-.more {
-  font-family: var(--mono);
-  font-size: 0.8125rem;
-}
-
+/* Narrow columns get gappy when justified, so phones stay left-aligned */
 @media (max-width: 600px) {
-  .research h3 {
-    margin-top: 0.75rem;
+  .prose p {
+    text-align: left;
   }
 }
