@@ -199,9 +199,6 @@ strong {
 
 /* Small illustrated avatar above the greeting; swaps to a photo on hover/focus */
 .avatar {
-  display: flex;
-  align-items: flex-end;
-  gap: 0.9rem;
   width: fit-content;
   margin: 0 0 1.5rem;
 }
@@ -248,13 +245,6 @@ strong {
 .avatar:focus-visible .avatar-frame {
   outline: 2px solid var(--accent);
   outline-offset: 6px;
-}
-
-.avatar figcaption {
-  padding-bottom: 0.2rem;
-  font-family: var(--mono);
-  font-size: 0.6875rem;
-  color: var(--muted);
 }
 
 /* Typing cursor on the homepage greeting */
@@ -388,6 +378,14 @@ figcaption {
   font-family: var(--mono);
   font-size: 0.8125rem;
   color: var(--muted);
+}
+
+.site-footer .credit a {
+  color: var(--muted);
+}
+
+.site-footer .credit a:hover {
+  color: var(--accent);
 }
 
 .social {
