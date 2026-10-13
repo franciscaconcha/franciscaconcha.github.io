@@ -197,6 +197,56 @@ strong {
   color: var(--muted);
 }
 
+/* Small illustrated avatar above the greeting; swaps to a photo on hover/focus */
+.avatar {
+  width: fit-content;
+  margin: 0 0 1.5rem;
+}
+
+.avatar:focus {
+  outline: none;
+}
+
+.avatar-frame {
+  position: relative;
+  display: block;
+  flex: none;
+  width: 5.25rem;
+  height: 5.25rem;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--accent);
+  transition: transform 0.25s ease;
+}
+
+.avatar-frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.35s ease;
+}
+
+.avatar-photo {
+  opacity: 0;
+}
+
+.avatar:hover .avatar-frame,
+.avatar:focus-visible .avatar-frame {
+  transform: rotate(-4deg) scale(1.04);
+}
+
+.avatar:hover .avatar-photo,
+.avatar:focus .avatar-photo {
+  opacity: 1;
+}
+
+.avatar:focus-visible .avatar-frame {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+}
+
 /* Typing cursor on the homepage greeting */
 .typed::after {
   content: "";
@@ -330,6 +380,14 @@ figcaption {
   color: var(--muted);
 }
 
+.site-footer .credit a {
+  color: var(--muted);
+}
+
+.site-footer .credit a:hover {
+  color: var(--accent);
+}
+
 .social {
   display: flex;
   gap: 0.9rem;
@@ -379,6 +437,11 @@ figcaption {
 
   .lede {
     font-size: 1rem;
+  }
+
+  .avatar-frame {
+    width: 4.5rem;
+    height: 4.5rem;
   }
 
   .row,
