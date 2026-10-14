@@ -380,11 +380,11 @@ figcaption {
   color: var(--muted);
 }
 
-.site-footer .credit a {
+.site-footer a {
   color: var(--muted);
 }
 
-.site-footer .credit a:hover {
+.site-footer a:hover {
   color: var(--accent);
 }
 
