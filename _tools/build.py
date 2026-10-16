@@ -52,8 +52,12 @@ DESCRIPTION = {
 }
 
 HOME = {"en": "index.html", "es": "espanol.html"}
+# While False, the English pages don't link to espanol.html and search engines aren't told
+# about it; the page still exists at /espanol.html. Set to True once the translation is ready.
+SPANISH_LINKED = False
+
 SWITCH = {
-    "en": '<a href="espanol.html" hreflang="es" lang="es">en español</a>',
+    "en": '<a href="espanol.html" hreflang="es" lang="es">en español</a>' if SPANISH_LINKED else "",
     "es": '<a href="index.html" hreflang="en" lang="en">in English</a>',
 }
 
@@ -69,7 +73,7 @@ def page(filename, title, body, current=None, extra_head="", footer_extra="", la
         for href, icon, *labels in SOCIAL
         for label in [labels[0] if lang == "en" else labels[1]]
     )
-    if filename in HOME.values():
+    if SPANISH_LINKED and filename in HOME.values():
         extra_head = ('\n  <link rel="alternate" hreflang="en" href="https://francisca.cr/" />'
                       '\n  <link rel="alternate" hreflang="es" href="https://francisca.cr/espanol.html" />') + extra_head
     full_title = "Francisca Concha-Ramírez" if title is None else f"{title} · Francisca Concha-Ramírez"
@@ -112,7 +116,7 @@ def page(filename, title, body, current=None, extra_head="", footer_extra="", la
     </main>
 
     <footer class="site-footer">
-      <span>hello at francisca.cr · {SWITCH[lang]}</span>{footer_extra}
+      <span>hello at francisca.cr{" · " + SWITCH[lang] if SWITCH[lang] else ""}</span>{footer_extra}
     </footer>
   </div>
 </body>
