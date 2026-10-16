@@ -37,6 +37,8 @@ SOCIAL = [
     ("https://www.linkedin.com/in/fconcharamirez", "fa-brands fa-linkedin", "LinkedIn", "LinkedIn"),
     ("https://scholar.google.com/citations?hl=en&amp;user=6_H07wkAAAAJ&amp;view_op=list_works&amp;sortby=pubdate",
      "fa-brands fa-google-scholar", "Google Scholar", "Google Scholar"),
+    ("https://app.grayswan.ai/arena/user/6ac6c17775e82831f4b75460", "fa-solid fa-feather",
+     "Gray Swan Arena", "Perfil en Gray Swan Arena"),
     ("http://primerfoton.cl", "fa-brands fa-wordpress", "Primer Fotón blog", "Blog Primer Fotón"),
     ("https://open.spotify.com/show/01udghVIbkkAcPvwVveynd", "fa-brands fa-spotify",
      "Primer Fotón podcast on Spotify", "Podcast Primer Fotón en Spotify"),
