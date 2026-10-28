@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <link rel="stylesheet" href="style.css?v=11" />
+  <link rel="stylesheet" href="style.css?v=13" />
 </head>
 <body>
   <div class="page">
@@ -41,11 +41,11 @@
     </header>
 
     <main>
-      <figure class="avatar" tabindex="0">
+      <figure class="avatar" tabindex="0" role="button" aria-label="Switch between illustration and photo">
         <span class="avatar-frame">
           <img class="avatar-art" src="images/avatar-illustration.jpg" width="400" height="400"
                alt="Illustrated portrait of Francisca by citruslucy" />
-          <img class="avatar-photo" src="images/avatar-photo.jpg" width="400" height="400" loading="lazy"
+          <img class="avatar-photo" src="images/avatar-photo.jpg" width="400" height="400"
                alt="Photo of Francisca Concha-Ramírez" />
         </span>
       </figure>
@@ -103,6 +103,40 @@
         setTimeout(tick, 70);
       }
     })();
+  })();
+
+  // Avatar: a few seconds after the photo has loaded, fade the illustration into the photo.
+  // Each hover (mouse) or tap/click (touch, pen) flips between the two and it stays flipped;
+  // Enter or Space does the same from the keyboard. Interacting first cancels the automatic fade.
+  (function () {
+    var avatar = document.querySelector(".avatar");
+    var photo = avatar && avatar.querySelector(".avatar-photo");
+    if (!photo) return;
+    var touched = false;
+    var lastPointer = "";
+    function flip() {
+      touched = true;
+      avatar.classList.toggle("is-photo");
+    }
+    avatar.addEventListener("pointerdown", function (e) { lastPointer = e.pointerType; });
+    avatar.addEventListener("pointerenter", function (e) {
+      if (e.pointerType === "mouse") flip();
+    });
+    avatar.addEventListener("click", function () {
+      // A mouse already flipped it on hover, so only touch and pen flip on click.
+      if (lastPointer && lastPointer !== "mouse") flip();
+      lastPointer = "";
+    });
+    avatar.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); }
+    });
+    function reveal() {
+      if (touched) return;
+      avatar.classList.add("is-photo", "is-revealing");
+      setTimeout(function () { avatar.classList.remove("is-revealing"); }, 1500);
+    }
+    function schedule() { setTimeout(reveal, 4000); }
+    if (photo.complete) schedule(); else photo.addEventListener("load", schedule, { once: true });
   })();
 </script>
     </main>
