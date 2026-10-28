@@ -197,7 +197,8 @@ strong {
   color: var(--muted);
 }
 
-/* Small illustrated avatar above the greeting; swaps to a photo on hover/focus */
+/* Small illustrated avatar above the greeting. It swaps to the photo on hover/focus, and after a
+   few seconds a script adds .is-photo so the photo shows by default and hover swaps back. */
 .avatar {
   width: fit-content;
   margin: 0 0 1.5rem;
@@ -240,6 +241,20 @@ strong {
 .avatar:hover .avatar-photo,
 .avatar:focus .avatar-photo {
   opacity: 1;
+}
+
+.avatar.is-photo .avatar-photo {
+  opacity: 1;
+}
+
+.avatar.is-photo:hover .avatar-photo,
+.avatar.is-photo:focus .avatar-photo {
+  opacity: 0;
+}
+
+/* Slower, gentler fade for the automatic reveal */
+.avatar.is-revealing .avatar-frame img {
+  transition-duration: 1.4s;
 }
 
 .avatar:focus-visible .avatar-frame {
