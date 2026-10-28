@@ -173,7 +173,7 @@ TYPE_SCRIPT = """
       avatar.classList.add("is-photo", "is-revealing");
       setTimeout(function () { avatar.classList.remove("is-revealing"); }, 1500);
     }
-    function schedule() { setTimeout(reveal, 4000); }
+    function schedule() { setTimeout(reveal, 2000); }
     if (photo.complete) schedule(); else photo.addEventListener("load", schedule, { once: true });
   })();
 </script>"""
