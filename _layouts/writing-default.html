@@ -15,7 +15,8 @@
   {%- assign og_type = "website" -%}
 {%- endif -%}
 {%- assign page_description = page_description | strip_html | normalize_whitespace | escape -%}
-{%- assign canonical = page.url | absolute_url -%}
+{%- comment -%} Posts copied from elsewhere point search engines at the original. {%- endcomment -%}
+{%- assign canonical = page.original_url | default: page.url | absolute_url -%}
 <html lang="en">
 <head>
   <meta charset="utf-8" />

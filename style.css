@@ -574,6 +574,14 @@ figcaption {
   margin: 0;
 }
 
+/* "Originally published on …" for posts copied from elsewhere */
+.writing .original-note {
+  margin: 0 0 1.75rem;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
 /* The first paragraph of a post is its lede */
 .writing .post-body > p:first-child {
   font-size: 1.125rem;

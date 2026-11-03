@@ -95,6 +95,8 @@ almost no edits. They're plain Markdown with front matter; all presentation is i
 | `status` | no | Epistemic status: how confident the post is, shown as a callout above it |
 | `math` | no | `true` if the post has math, to load KaTeX |
 | `published` | no | `false` for drafts; anything else (or no field) publishes it |
+| `original_url` | no | For a post first published elsewhere: its original URL. Shows an "Originally published on …" note and makes the original the canonical URL, so search engines don't treat the copy as a duplicate |
+| `original_site` | no | Name of the site in that note (for example `Word cluster`) |
 
 ### Conventions to keep
 
@@ -111,3 +113,8 @@ almost no edits. They're plain Markdown with front matter; all presentation is i
   current site does that in a few lines of JavaScript in `_layouts/writing-post.html`; most other
   engines have an image "render hook" or option for the same thing.
 - **Footnotes and tables** use the common Markdown syntax (`[^1]`, pipe tables).
+- **Copied Word cluster posts:** the 8 posts tagged `word-cluster` are copies of the 2018 blog
+  posts in `_posts/`, which stay at their original `/blog/...` URLs. Their `original_url` must
+  stay the canonical URL, so keep rendering it as `<link rel="canonical">`. Unlike new posts,
+  their bodies contain some inline HTML (links, `<font color>`) and images linked from GitHub
+  (`github.com/.../images/blog/...?raw=true`), kept exactly as originally published.

@@ -37,6 +37,11 @@ status: >-
 # true loads KaTeX on this post, for $…$ and $$…$$ math.
 math: false
 
+# Only for a post first published somewhere else: its original URL and the site's name.
+# Shows "Originally published on <site>" and tells search engines the original is canonical.
+# original_url: https://example.com/original-post
+# original_site: Example blog
+
 # Keep false while drafting: the post isn't built on the live site at all.
 # Delete this line (or set it to true) to publish.
 published: false
