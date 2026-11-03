@@ -1,0 +1,33 @@
+---
+layout: writing-default
+---
+{%- comment -%}
+  The writing section's index: newest first, with date, title, one-line summary and tags.
+  Posts with `published: false` never appear here (or anywhere) on the live site.
+{%- endcomment -%}
+{%- assign section = site.data.writing -%}
+{%- assign posts = site[page.collection_name] | sort: "date" | reverse -%}
+      <h1><span class="prompt">&gt;</span> {{ section.label }}</h1>
+{{ content }}
+      {%- if posts.size == 0 %}
+
+      <p class="muted writing-empty">Nothing published yet. The first post is on its way.</p>
+      {%- else %}
+
+      <ul class="timeline writing-list">
+        {%- for post in posts %}
+        <li>
+          <time class="when" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+          <div>
+            <a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {%- if post.summary %}
+            <span class="summary">{{ post.summary }}</span>
+            {%- endif %}
+            {%- if post.tags.size > 0 %}
+            <span class="meta">{% for tag in post.tags %}<span class="tag">#{{ tag }}</span>{% endfor %}</span>
+            {%- endif %}
+          </div>
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}

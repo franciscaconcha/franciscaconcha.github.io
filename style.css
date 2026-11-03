@@ -484,3 +484,347 @@ figcaption {
     text-align: left;
   }
 }
+
+/* ------------------------------------------------------------------------------------------
+   Writing section (/writing/). Everything is scoped under .writing (a post) or .writing-list
+   (the index), so none of it can affect other pages. Built from the approved mockup.
+   ------------------------------------------------------------------------------------------ */
+
+.writing {
+  --code-bg: color-mix(in srgb, var(--rule) 40%, var(--bg));
+  --code-inline-bg: color-mix(in srgb, var(--rule) 80%, transparent);
+  --hl-string: #a3d9a5;
+  --hl-name: #9ecbff;
+}
+
+@media (prefers-color-scheme: light) {
+  .writing {
+    --hl-string: #2e7d32;
+    --hl-name: #1d5fa8;
+  }
+}
+
+.writing .post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  margin: -0.75rem 0 1.75rem;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.writing .post-meta .tag,
+.writing-list .tag {
+  color: var(--accent);
+}
+
+.writing .post-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 1.75rem;
+  padding: 0;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+}
+
+.writing .post-links a {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.writing .post-links a::before {
+  content: "↗ ";
+  color: var(--accent);
+}
+
+.writing .post-links a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.writing .status {
+  margin: 0 0 2rem;
+  padding: 0.85rem 1rem;
+  border-left: 2px solid var(--accent);
+  background: color-mix(in srgb, var(--rule) 55%, transparent);
+  font-size: 0.9375rem;
+  color: var(--fg);
+}
+
+.writing .status b {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.writing .status p {
+  margin: 0;
+}
+
+/* "Originally published on …" for posts copied from elsewhere */
+.writing .original-note {
+  margin: 0 0 1.75rem;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+/* The first paragraph of a post is its lede */
+.writing .post-body > p:first-child {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--strong);
+}
+
+.writing .post-body h2 {
+  margin-top: 2.75rem;
+}
+
+.writing .post-body ul,
+.writing .post-body ol {
+  margin: 0 0 1.1rem;
+  padding-left: 1.25rem;
+}
+
+.writing .post-body li + li {
+  margin-top: 0.3rem;
+}
+
+.writing .post-body blockquote {
+  margin: 0 0 1.4rem;
+  padding: 0.1rem 0 0.1rem 1rem;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+}
+
+.writing .post-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.writing .post-body hr {
+  margin: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid var(--rule);
+}
+
+/* Code: inline and blocks, highlighted by Rouge (kramdown's default) */
+.writing .post-body code {
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: var(--code-inline-bg);
+  font-family: var(--mono);
+  font-size: 0.875em;
+  color: var(--strong);
+}
+
+.writing .post-body pre {
+  margin: 0 0 1.4rem;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--code-bg);
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.writing .post-body pre code {
+  padding: 0;
+  background: none;
+  font-size: inherit;
+  color: var(--fg);
+}
+
+.writing .highlight .k,
+.writing .highlight .kd,
+.writing .highlight .kn,
+.writing .highlight .kr,
+.writing .highlight .kc,
+.writing .highlight .ow {
+  color: var(--accent);
+}
+
+.writing .highlight .s,
+.writing .highlight .s1,
+.writing .highlight .s2,
+.writing .highlight .sb,
+.writing .highlight .sd,
+.writing .highlight .se,
+.writing .highlight .si,
+.writing .highlight .sr {
+  color: var(--hl-string);
+}
+
+.writing .highlight .c,
+.writing .highlight .c1,
+.writing .highlight .cm,
+.writing .highlight .cs,
+.writing .highlight .cp {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.writing .highlight .nf,
+.writing .highlight .fm,
+.writing .highlight .nc,
+.writing .highlight .nb,
+.writing .highlight .bp,
+.writing .highlight .nd,
+.writing .highlight .kt,
+.writing .highlight .m,
+.writing .highlight .mi,
+.writing .highlight .mf,
+.writing .highlight .mh,
+.writing .highlight .mo {
+  color: var(--hl-name);
+}
+
+.writing .highlight .err {
+  color: inherit;
+}
+
+/* Math (KaTeX, only on posts with math: true) */
+.writing .katex {
+  font-size: 1.08em;
+}
+
+.writing .katex-display {
+  margin: 0.5rem 0 1.5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  color: var(--strong);
+}
+
+/* Tables */
+.writing .post-body table {
+  width: 100%;
+  margin: 0 0 1.5rem;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.writing .post-body th {
+  padding: 0.4rem 0.75rem 0.4rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.writing .post-body td {
+  padding: 0.45rem 0.75rem 0.45rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.writing .post-body th:last-child,
+.writing .post-body td:last-child {
+  padding-right: 0;
+}
+
+/* Images; a Markdown image with a title becomes a figure with a caption */
+.writing .post-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.writing .post-body figure {
+  margin: 0.5rem 0 1.75rem;
+}
+
+.writing .post-body figcaption {
+  font-size: 0.8125rem;
+}
+
+/* Footnotes */
+.writing .footnotes {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.writing .footnotes ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.writing .footnotes p {
+  margin-bottom: 0.4rem;
+}
+
+.writing .footnotes .reversefootnote,
+.writing .post-body .footnote {
+  text-decoration: none;
+}
+
+/* "← all writing" and next post */
+.writing .post-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+}
+
+.writing .post-nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.writing .post-nav a:hover {
+  color: var(--accent);
+}
+
+/* The index at /writing/ */
+.writing-list .title {
+  text-decoration: none;
+}
+
+.writing-list .title:hover {
+  color: var(--accent);
+}
+
+.writing-list .summary {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.9375rem;
+  color: var(--fg);
+}
+
+.writing-list .meta {
+  margin-top: 0.35rem;
+}
+
+@media (max-width: 600px) {
+  .writing .post-meta {
+    gap: 0.25rem 0.6rem;
+  }
+
+  .writing .post-nav {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
