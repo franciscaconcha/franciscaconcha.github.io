@@ -60,3 +60,18 @@ font-awesome:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# The "writing" section: AI research notes in _writing/, served at /writing/<slug>/.
+# It's a collection, not _posts, so it never appears in the old Word cluster blog.
+# See _tools/README.md before changing the URL pattern.
+collections:
+  writing:
+    output: true
+    permalink: /writing/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: writing
+    values:
+      layout: writing-post

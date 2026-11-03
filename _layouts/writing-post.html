@@ -1,0 +1,75 @@
+---
+layout: writing-default
+---
+{%- comment -%}
+  A post in the writing section. Everything here comes from plain front matter (title, date, tags,
+  summary, paper, code, status, math), so posts stay plain Markdown. See _tools/README.md.
+{%- endcomment -%}
+{%- assign section = site.data.writing -%}
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 200.0 | ceil -%}
+{%- if minutes < 1 %}{% assign minutes = 1 %}{% endif -%}
+{%- assign posts = site[page.collection] | sort: "date" | reverse -%}
+{%- for p in posts -%}
+  {%- if p.url == page.url -%}
+    {%- assign newer_index = forloop.index0 | minus: 1 -%}
+    {%- assign older_index = forloop.index0 | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if newer_index >= 0 %}{% assign next_post = posts[newer_index] %}{% endif -%}
+{%- assign previous_post = posts[older_index] -%}
+      <article class="writing">
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %b %Y" }}</time>
+          <span aria-hidden="true">·</span>
+          <span>{{ minutes }} min read</span>
+          {%- if page.tags.size > 0 %}
+          <span aria-hidden="true">·</span>
+          <span class="post-tags">{% for tag in page.tags %}<span class="tag">#{{ tag }}</span>{% endfor %}</span>
+          {%- endif %}
+        </div>
+        {%- if page.paper or page.code %}
+
+        <ul class="post-links">
+          {%- if page.paper %}
+          <li><a href="{{ page.paper }}" target="_blank" rel="noopener">paper</a></li>
+          {%- endif %}
+          {%- if page.code %}
+          <li><a href="{{ page.code }}" target="_blank" rel="noopener">code</a></li>
+          {%- endif %}
+        </ul>
+        {%- endif %}
+        {%- if page.status %}
+
+        <div class="status">
+          <b>Epistemic status</b>
+          {{ page.status | markdownify }}
+        </div>
+        {%- endif %}
+
+        <div class="post-body">
+{{ content }}
+        </div>
+
+        <nav class="post-nav" aria-label="More {{ section.label }}">
+          <a href="{{ section.url | relative_url }}">← all {{ section.label }}</a>
+          {%- if next_post %}
+          <a href="{{ next_post.url | relative_url }}">next: {{ next_post.title }} →</a>
+          {%- elsif previous_post %}
+          <a href="{{ previous_post.url | relative_url }}">previous: {{ previous_post.title }} →</a>
+          {%- endif %}
+        </nav>
+      </article>
+
+      <script>
+        // Markdown images with a title, ![alt](/images/... "Caption"), become a figure with a caption.
+        document.querySelectorAll(".post-body p > img[title]:only-child").forEach(function (img) {
+          var figure = document.createElement("figure");
+          var caption = document.createElement("figcaption");
+          caption.textContent = img.title;
+          img.removeAttribute("title");
+          img.parentNode.replaceWith(figure);
+          figure.append(img, caption);
+        });
+      </script>
