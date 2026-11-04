@@ -37,7 +37,7 @@ code. Posts live in `_writing/` and are published at `/writing/<slug>/`. They're
    `![alt text](/images/writing/llm-judges/chart.png "Caption")`.
 4. Preview it locally (see below), including drafts.
 5. To publish, delete the `published: false` line (or set it to `true`), commit, and open a pull
-   request. The post goes live when it's merged into `master`.
+   request. The post goes live when it's merged into `main`.
 
 ### Preview locally
 
