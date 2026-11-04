@@ -14,7 +14,7 @@ The library is very nice and has lots of work and study spaces to which you can 
 
 I have now been to the library for a couple of days and am very happy with it. It's silent enough for me to work and focus, and having other people around looking busy also helps me stay on track.
 
-![Library](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-09-10%2014.43.23.jpg?raw=true "Library")
+![Library](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/main/images/blog/2018-09-10%2014.43.23.jpg?raw=true "Library")
 *My work set-up for today*
 
 It has not been easy to go back into work, especially since it's been so long since I've had time to dedicate to my actual PhD projects. Luckily, a few months ago I started using <a href="https://trello.com/" target="blank">Trello<i class="fa fa-fw fa-external-link"></i></a> boards, which helped me remember what I was doing (no joke). I've been taking it easy and making daily "work plans" on my planner to help me get back on track. Today I started doing real, actual work again, and even if I got stuck with some technical issues, it feels great to return to doing science!

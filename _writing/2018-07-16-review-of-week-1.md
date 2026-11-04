@@ -8,7 +8,7 @@ original_site: Word cluster
 
 So the first week of my writing challenge is done! It was a bit harder than I expected, but pretty successful, I would say. This is what my writing tracker looks like now:
 
-![Week1](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-07-16 10.23.22.jpg?raw=true "Week 1")
+![Week1](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/main/images/blog/2018-07-16 10.23.22.jpg?raw=true "Week 1")
 
 I did at least half a block every day (except Friday, but I did one on Sunday) which is pretty great! The personal block on Sunday was a letter to a friend. I think the hardest block of this week was the one for my <a href="http://primerfoton.cl" target="blank">science blog<i class="fa fa-fw fa-external-link"></i></a>, on Monday. I usually write for my blog when I'm feeling inspired or feel like I have something to say, but in this case I had nothing and I really had to force myself to keep writing for the hour. I think I spent most of the time deciding on what to write about, and reading interesting articles about different topics. In any case, I wrote down the grand total of 416 words, so I count it as a success! And, in the end, building a writing habit means exactly that: getting used to write when I feel I have nothing to say.
 

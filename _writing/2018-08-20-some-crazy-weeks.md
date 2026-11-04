@@ -22,11 +22,11 @@ Needless to say, I have not been keeping up with my writing. However I have a ve
 
 Now, the fact that I have not been writing as much as I'd like to does not mean that I have not been _thinking_ about writing. On my <a href="http://francisca.cr/blog/2018/08/05/Catching-up.html">previous post</a> I mentioned that I was not too happy with my system for tracking writing blocks. Last week I came up with a very nice solution on my Hobonichi Techo planner: using the empty space on the left side of the monthly view!
 
-![BlockTracking](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-08-19 19.58.39.jpg?raw=true "Block tracking")
+![BlockTracking](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/main/images/blog/2018-08-19 19.58.39.jpg?raw=true "Block tracking")
 
 I got inspired by some posts on Hobonichi Facebook groups, and I noticed that each month I had a lot of empty space on that page. Each week is six squares high, so I track each day of the week + the weekend in just one row. I must warn you though, the picture above is a total lie: on the week of the 13th of August I only did like half an hour writing for my outreach blog. I incorrectly copied the blocks from the week of the 6th of August into that week. And I said copied because I am also now tracking the writing blocks on my daily pages:
 
-![DailyBlockTracking](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/2018-08-19 19.59.23.jpg?raw=true "Daily block tracking")
+![DailyBlockTracking](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/main/images/blog/2018-08-19 19.59.23.jpg?raw=true "Daily block tracking")
 
 I am really liking the combination of these tracking systems. They also allow me to take notes next to each planned squared, so I can know if I need to write about anything specific. 
 

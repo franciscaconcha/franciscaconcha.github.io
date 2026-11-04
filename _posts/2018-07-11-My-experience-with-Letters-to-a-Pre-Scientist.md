@@ -30,4 +30,4 @@ Something that worried me back then was that the organizers asked scientists to 
 
 Below is a copy I found of one of my letters, so you can get an idea of the level. Getting letters from my pen pal was very exciting and it always put a big smile on my face. I hope he felt the same way when he got mine. The questions kids make can be very surprising, and trying to put an answer in simple terms that they can understand is an excellent exercise for anybody interested in sharing their research. I absolutely recommend participating in this program!
 
-![Letter to Miguel](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/master/images/blog/LetterMiguel.png?raw=true "Letter to Miguel")
+![Letter to Miguel](https://github.com/franciscaconcha/franciscaconcha.github.io/blob/main/images/blog/LetterMiguel.png?raw=true "Letter to Miguel")
