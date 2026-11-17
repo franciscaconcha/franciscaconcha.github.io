@@ -834,3 +834,24 @@ figcaption {
     gap: 0.75rem;
   }
 }
+
+/* Homepage: the latest writing post, as a compact row after "science" */
+.latest-writing dd p {
+  margin: 0;
+}
+
+.latest-writing .meta-line {
+  display: block;
+  margin-top: 0.2rem;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.latest-writing .meta-line a {
+  color: var(--muted);
+}
+
+.latest-writing .meta-line a:hover {
+  color: var(--accent);
+}
