@@ -349,6 +349,46 @@ strong {
   vertical-align: 0.1em;
 }
 
+a.tag {
+  text-decoration: none;
+}
+
+a.tag:hover,
+a.tag[aria-current="true"] {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Writing index: "Posts tagged #x · show all" when filtering by tag */
+.tag-filter {
+  margin: 1.5rem 0 0.9rem;
+  font-family: var(--mono);
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.tag-filter .tag {
+  margin: 0 0.15rem;
+  color: var(--accent);
+}
+
+.tag-filter a {
+  color: var(--muted);
+}
+
+.tag-filter a:hover {
+  color: var(--accent);
+}
+
+.tag-empty {
+  margin-top: 1rem;
+}
+
+/* The list items are grids, which would otherwise override the hidden attribute */
+.writing-list > li[hidden] {
+  display: none;
+}
+
 /* Figures */
 figure {
   margin: 2rem 0;
