@@ -27,7 +27,7 @@ layout: writing-default
           <span>{{ minutes }} min read</span>
           {%- if page.tags.size > 0 %}
           <span aria-hidden="true">·</span>
-          <span class="post-tags">{% for tag in page.tags %}<span class="tag">#{{ tag }}</span>{% endfor %}</span>
+          <span class="post-tags">{% for tag in page.tags %}<a class="tag" href="{{ section.url | relative_url }}?tag={{ tag | uri_escape }}" rel="tag">#{{ tag }}</a>{% endfor %}</span>
           {%- endif %}
         </div>
         {%- if page.paper or page.code %}

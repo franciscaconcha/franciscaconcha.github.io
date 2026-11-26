@@ -74,6 +74,9 @@ save a file. If you change `build.py`, run `python3 _tools/build.py` first.
   until the next build. GitHub Pages only rebuilds when something is pushed, so date posts today
   or earlier. Use `bundle exec jekyll serve --unpublished --future` to preview future-dated ones.
 - **Reading time** is computed from the word count at 200 words per minute.
+- **Tags** are links: clicking one opens `/writing/?tag=<name>`, which shows only the posts with that
+  tag. Keep tags lowercase and use hyphens instead of spaces (`llm-as-judge`, not `llm as judge`),
+  or the filter won't find them.
 - **Definition boxes:** a quote that starts with a bold "Definition", optionally with the term in
   brackets, is shown as a definition box:
   ```markdown
