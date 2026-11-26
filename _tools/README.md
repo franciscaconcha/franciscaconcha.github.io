@@ -74,6 +74,14 @@ save a file. If you change `build.py`, run `python3 _tools/build.py` first.
   until the next build. GitHub Pages only rebuilds when something is pushed, so date posts today
   or earlier. Use `bundle exec jekyll serve --unpublished --future` to preview future-dated ones.
 - **Reading time** is computed from the word count at 200 words per minute.
+- **Definition boxes:** a quote that starts with a bold "Definition", optionally with the term in
+  brackets, is shown as a definition box:
+  ```markdown
+  > **Definition (deceptive denial).** A reply that says something false about the recipe, or
+  > about what the model has access to.
+  ```
+  Every line of the box starts with `>`; it can hold several paragraphs, lists and math. Any other
+  quote stays a normal blockquote.
 - **Next/previous links:** each post links to the next newer post, or to the previous one if it's
   the newest.
 
@@ -109,6 +117,9 @@ almost no edits. They're plain Markdown with front matter; all presentation is i
   (`/images/writing/<slug>/file.png`). Copy the folder as is.
 - **Math:** standard `$…$` (inline) and `$$…$$` (display) delimiters, which KaTeX and MathJax
   setups in most engines support.
+- **Definition boxes** are plain Markdown quotes starting with `**Definition (term).**`; a few
+  lines of JavaScript in `_layouts/writing-post.html` turn them into boxes. In another engine they
+  read fine as quotes; to keep the boxes, recreate that (or use a callout/admonition feature).
 - **Captions:** a Markdown image title (`![alt](src "Caption")`) becomes a figure caption. The
   current site does that in a few lines of JavaScript in `_layouts/writing-post.html`; most other
   engines have an image "render hook" or option for the same thing.

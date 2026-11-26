@@ -81,6 +81,12 @@ them with a path starting at the site root. Text in quotes becomes the caption.
 
 ![Bar chart of agreement by judge](/images/writing/llm-judges/agreement.png "Figure 1. Cohen's κ by judge.")
 
+Definitions: a quote whose first words are **Definition (term).** in bold is shown as a
+definition box. The term in brackets is optional, and the box can hold several paragraphs and math.
+
+> **Definition (Cohen's κ).** Agreement between two raters, corrected for the agreement you'd
+> expect by chance.
+
 Footnotes work like this.[^1]
 
 [^1]: And appear at the end of the post.

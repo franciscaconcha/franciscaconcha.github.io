@@ -71,6 +71,27 @@ layout: writing-default
       </article>
 
       <script>
+        // A blockquote that starts with **Definition (term).** becomes a definition box. The term in
+        // brackets is optional. Without JavaScript (or on another blog engine) it stays a plain quote.
+        document.querySelectorAll(".post-body blockquote").forEach(function (quote) {
+          var lead = quote.querySelector("p:first-child > strong:first-child");
+          var match = lead && lead.textContent.trim().match(/^Definition(?:\s*\((.+)\))?\s*[.:]?$/i);
+          if (!match) return;
+          quote.classList.add("definition");
+          var label = document.createElement("span");
+          label.className = "def-label";
+          label.textContent = "Definition";
+          if (match[1]) {
+            var term = document.createElement("span");
+            term.className = "def-term";
+            term.textContent = match[1];
+            label.append(term);
+          }
+          var after = lead.nextSibling;
+          if (after && after.nodeType === Node.TEXT_NODE) after.textContent = after.textContent.replace(/^\s+/, "");
+          lead.replaceWith(label);
+        });
+
         // Markdown images with a title, ![alt](/images/... "Caption"), become a figure with a caption.
         document.querySelectorAll(".post-body p > img[title]:only-child").forEach(function (img) {
           var figure = document.createElement("figure");

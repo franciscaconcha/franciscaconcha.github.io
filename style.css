@@ -755,6 +755,44 @@ figcaption {
   font-size: 0.8125rem;
 }
 
+/* Definition boxes: a blockquote starting with **Definition (term).** (see writing-post.html) */
+.writing .post-body blockquote.definition {
+  margin: 1.5rem 0 1.75rem;
+  padding: 0.9rem 1.1rem 0.95rem;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--rule) 30%, transparent);
+  color: var(--fg);
+}
+
+.writing .post-body blockquote.definition .def-label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.writing .post-body blockquote.definition .def-term {
+  margin-left: 0.4rem;
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--strong);
+}
+
+.writing .post-body blockquote.definition p:last-child {
+  margin-bottom: 0;
+}
+
+.writing .post-body blockquote.definition .katex-display {
+  margin: 0.6rem 0 0.8rem;
+}
+
 /* Footnotes */
 .writing .footnotes {
   margin-top: 2.5rem;
